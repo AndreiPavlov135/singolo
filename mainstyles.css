@@ -10,23 +10,21 @@ body {
 
 /* .........HEADER.......... */
 
+.burger_menu {
+    display: none;
+}
+
 .header_wrapp {
-    height: 95px;
     border-bottom:  #323746 solid 6px;
     background: #2D303A;
     display: flex;
     justify-content: space-between;
-}
-
-.wrapp_logo_container {
-    display: inline-block;
+    padding: 40px;
 }
 
 .h1_wrapp {
     width: 124px;
     height: 25px;
-    margin-left: 40px;
-    margin-top: 29px;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -41,11 +39,14 @@ body {
     color: #F06C64;
 }
 
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
 .header_nav_row {
     width: 375px;
     height: 14px;
-    margin: 0 40px 0 401px;
-    margin-top: 42px;
     font-family: Lato;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
@@ -94,6 +95,7 @@ body {
     padding: 283.5px 40px 0 40px;
     position: relative;
     height: 27px;
+    z-index: 1;
 }
 
 .slider_controls_arrow_left:hover, .slider_controls_arrow_right:hover {

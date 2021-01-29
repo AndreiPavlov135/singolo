@@ -1,0 +1,176 @@
+@media (min-width: 768px) and (max-width: 1019px) {
+    body {
+        width: 100%;
+    }
+    .slider_controls {
+        padding: 226.5px 25px 0 25px;
+    }
+    .slider_content {
+        margin-top: -203.5px;
+        margin-left: 90px;
+    }
+    .slider {
+        height: 451px;
+    }
+    .phone_vertical {
+        width: 180.85px;
+        height: 363.74px;
+    }
+    .phone_horizontal {
+        width: 364.21px;
+        height: 180.93px;
+    }
+    .our-services_content p, .portfolio_image {
+        height: 100%;
+    }
+    .services {
+        height: 571px; 
+    }
+    .card {
+        width: 47%;    
+        height: 100%;
+    }
+    
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    body {
+        width: 100%; 
+    }
+    .header_nav_row li {
+        display: none;
+    }
+    .burger_menu {
+        display: inline-block;
+        margin-right: 30%;
+    }
+    .slider {
+        height: 218.5px;
+    }
+    .slider_content_phone_horizontal {
+        margin-left: 7%;
+    }
+    .phone_vertical {
+        width: 88.24px;
+        height: 177.57px;
+    }
+    .phone_horizontal {
+        width: 177.57px;
+        height: 88.24px;
+    }
+    .slider_controls {
+        padding: 226.5px 25px 0 10px;
+    }
+    .slider_content {
+        margin-top: -227.5px;
+        margin-left: 33px;
+        justify-content: space-around;
+    }
+    .slider_controls_arrow_left, .slider_controls_arrow_right{
+        margin-top: -126px;
+    }
+    .slider_controls_arrow_left:hover, .slider_controls_arrow_right:hover {
+        background: none;
+        cursor: default;
+    }
+    .img_slider_controls_arrow_left:hover, .img_slider_controls_arrow_right:hover {
+        cursor: pointer;
+        height: 27px;
+        background: #2D303A;
+    }
+    .our-services_content p, .services {
+        height: 100%;
+    }
+    .our-services_content {
+        margin: 0 1% 0 1%;
+    }
+    .card {
+        width: 100%;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .portfolio_image img{
+        width: 49%;
+    }
+    .portfolio_image {
+        height: 155vw;
+    }
+    .footer_left_side {
+        display: none;
+    }
+    .footer_wrap {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 374px) {
+    body {
+        width: 100%; 
+    }
+    .header_nav_row li {
+        display: none;
+    }       
+    .burger_menu {
+        display: inline-block;
+        margin-right: 25%;
+    }
+    .slider {
+        height: 218.5px;
+    }
+    .slider_content_phone_horizontal {
+        margin-left: 0;
+    }
+    .phone_vertical {
+        width: 88.24px;
+        height: 177.57px;
+    }
+    .phone_horizontal {
+        width: 177.57px;
+        height: 88.24px;
+    }
+    .slider_controls {
+        padding: 226.5px 0 0 0;
+    }
+    .slider_content {
+        margin-top: -227.5px;
+        margin-left: 33px;
+        justify-content: space-around;
+    }
+    .slider_controls_arrow_left, .slider_controls_arrow_right{
+        margin-top: -126px;
+    }
+    .slider_controls_arrow_left:hover, .slider_controls_arrow_right:hover {
+        background: none;
+        cursor: default;
+    }
+    .img_slider_controls_arrow_left:hover, .img_slider_controls_arrow_right:hover {
+        cursor: pointer;
+        height: 27px;
+        background: #2D303A;
+    }
+    .our-services_content p, .services {
+        height: 100%;
+    }
+    .our-services_content {
+        margin: 0 1% 0 1%;
+    }
+    .card {
+        width: 100%;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .portfolio_image img{
+        width: 49%;
+    }
+    .portfolio_image {
+        height: 153vw;
+    }
+    .footer_left_side {
+        display: none;
+    }
+    .footer_wrap {
+        justify-content: center;
+    }
+}
