@@ -1,13 +1,20 @@
-@media (min-width: 768px) and (max-width: 1019px) {
-    body {
-        width: 100%;
+@media only screen and (min-width: 1020px) and (orientation: landscape) {
+    .slider_content {
+        justify-content: center;
     }
+    .portfolio_image {
+        margin: 0px 6%;
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1019px) and (orientation: landscape) {
     .slider_controls {
         padding: 226.5px 25px 0 25px;
     }
     .slider_content {
         margin-top: -203.5px;
         margin-left: 90px;
+        justify-content: center;
     }
     .slider {
         height: 451px;
@@ -33,7 +40,7 @@
     
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
     body {
         width: 100%; 
     }
@@ -104,7 +111,7 @@
     }
 }
 
-@media (max-width: 374px) {
+@media only screen and (max-width: 374px) {
     body {
         width: 100%; 
     }

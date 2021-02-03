@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
-body {
+/* body {
     width: 1020px;
     margin: 0 auto;
-}
+} */
 
 /* .........HEADER.......... */
 
@@ -206,7 +207,6 @@ p.content_description {
     flex-wrap: wrap;
     justify-content: space-between;
     overflow: hidden;
-    height: 45vw;
 }
 
 .portfolio_image img{
@@ -280,3 +280,4 @@ p.content_description {
     background: #000;
     border-radius: 100%;
 }
+ 
