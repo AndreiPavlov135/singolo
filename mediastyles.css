@@ -44,12 +44,19 @@
     body {
         width: 100%; 
     }
-    .header_nav_row li {
+    .header_nav {
         display: none;
     }
     .burger_menu {
         display: inline-block;
         margin-right: 30%;
+    }
+    .burger_menu:hover {
+        cursor: pointer;
+    }
+    .wrapp_logo_container{
+        margin-left: auto;
+        margin-right: auto;
     }
     .slider {
         height: 218.5px;
@@ -121,6 +128,9 @@
     .burger_menu {
         display: inline-block;
         margin-right: 25%;
+    }
+    .burger_menu:hover {
+        cursor: pointer;
     }
     .slider {
         height: 218.5px;

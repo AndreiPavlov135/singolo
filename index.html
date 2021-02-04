@@ -6,16 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singolo</title>
     <link rel="stylesheet" href="mainstyles.css">
+    <link rel="stylesheet" href="mobilestyles.css">
     <link rel="stylesheet" href="mediastyles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="meny_mobile_hide">
+        <div class="meny_mobile_wrap">
+            <div class="meny_mobile_header">
+                <div class="mobile_icon">
+                    <img src="img/img-mobile/Burger-menu-icon.png" alt="burger_menu" class="burger_icon_remove">
+                </div>
+                <div class="mobile_logo">
+                    <img src="img/img-mobile/logo.png" alt="">
+                </div>
+            </div>
+            <div class="meny_mobile_nav">
+                <nav class="mobile_nav">
+                    <ul class="mobile_nav_col">
+                        <li class="mobile_link"><a href="#home">home</a></li>
+                        <li class="mobile_link"><a href="#services">services</a></li>
+                        <li class="mobile_link"><a href="#portfolio">portfolio</a></li>
+                        <li class="mobile_link"><a href="#footer">about</a></li>
+                        <li class="mobile_link"><a href="#footer">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div class="wrapper_content">
     <header>
         <div class="header_wrapp">
             <div class="burger_menu">
-                <img src="img/Burger-menu-icon.png" alt="burger_menu">
+                <img src="img/Burger-menu-icon.png" alt="burger_menu" class="burger_icon_add">
             </div>
             <div class="wrapp_logo_container">
                 <h1 class="h1_wrapp">singolo<span class="h1_wrapp_logo">*</span></h1>
@@ -178,6 +204,7 @@
             </div>
         </div>
     </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>

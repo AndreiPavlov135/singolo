@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
 }
 
+.wrapper_content {
+    z-index: 88;
+    position: relative;
+}
 /* body {
     width: 1020px;
     margin: 0 auto;
