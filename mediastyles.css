@@ -6,6 +6,9 @@
         margin: 0px 6%;
         justify-content: space-around;
     }
+    .phone_blue {
+        height: 606px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1019px) and (orientation: landscape) {
     .slider_controls {
@@ -18,6 +21,9 @@
     }
     .slider {
         height: 451px;
+    }
+    .phone_blue {
+        height: 457px;
     }
     .phone_vertical {
         width: 180.85px;
@@ -49,7 +55,6 @@
     }
     .burger_menu {
         display: inline-block;
-        margin-right: 30%;
     }
     .burger_menu:hover {
         cursor: pointer;
@@ -60,6 +65,9 @@
     }
     .slider {
         height: 218.5px;
+    }
+    .phone_blue {
+        height: 224.5px;
     }
     .slider_content_phone_horizontal {
         margin-left: 7%;
@@ -134,6 +142,9 @@
     }
     .slider {
         height: 218.5px;
+    }
+    .phone_blue {
+        height: 224.5px;
     }
     .slider_content_phone_horizontal {
         margin-left: 0;

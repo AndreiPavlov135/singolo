@@ -12,12 +12,28 @@ iconBurgerHide.addEventListener('click', () => {
 
 let mobileLinks = document.querySelectorAll('.mobile_link');
 
-/* mobileLinks.addEventListener('click', () => {
-    mobileMeny.classList.toggle('meny_mobile_add');
-}); */
 mobileLinks.forEach(item => {
     item.addEventListener('click', () => {
         mobileMeny.classList.toggle('meny_mobile_add');
     })
 })
 console.log(mobileLinks);
+
+let controllerRight = document.querySelector('.slider_controls_arrow_right');
+let controllerLeft = document.querySelector('.slider_controls_arrow_left');
+let sliderBlue = document.querySelector('.slider_content_blue');
+let sliderRosseNone = document.querySelector('.slider');
+let controllerAdd = document.querySelector('.slider_controls');
+let animeLeft = document.querySelector('.anime_left')
+
+controllerLeft.addEventListener('click', () => {
+    sliderRosseNone.classList.toggle('slider_none');
+    sliderBlue.classList.toggle('slider_content_blue_add');
+    controllerAdd.classList.toggle('slider_controls_add');
+});
+
+controllerRight.addEventListener('click', () => {
+    sliderRosseNone.classList.toggle('slider_none');
+    sliderBlue.classList.toggle('slider_content_blue_add');
+    controllerAdd.classList.toggle('slider_controls_add');
+});
