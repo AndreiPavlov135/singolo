@@ -24,7 +24,6 @@ let controllerLeft = document.querySelector('.slider_controls_arrow_left');
 let sliderBlue = document.querySelector('.slider_content_blue');
 let sliderRosseNone = document.querySelector('.slider');
 let controllerAdd = document.querySelector('.slider_controls');
-let animeLeft = document.querySelector('.anime_left')
 
 controllerLeft.addEventListener('click', () => {
     sliderRosseNone.classList.toggle('slider_none');
@@ -36,4 +35,11 @@ controllerRight.addEventListener('click', () => {
     sliderRosseNone.classList.toggle('slider_none');
     sliderBlue.classList.toggle('slider_content_blue_add');
     controllerAdd.classList.toggle('slider_controls_add');
+});
+
+const menu = document.getElementById('header_menu');
+
+menu.addEventListener('click', (event) => {
+    menu.querySelectorAll('a').forEach(el => el.classList.remove('activ_li'));
+    event.target.classList.add('activ_li');
 });

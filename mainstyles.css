@@ -76,6 +76,10 @@
     list-style-type: none;
 }
 
+.activ_li {
+    background: #F06C64;
+}
+
 .header_nav_row li:not(:last-child):after {
     content: "·";
     color: #fff;
@@ -88,7 +92,6 @@
     height: 600px;
     background: #F06C64;
     border-bottom: #EA676B solid 6px;
-    transition: left 3s;
 }
 
 .slider_none {
@@ -147,7 +150,6 @@
 .slider_content_blue_add {
     visibility: visible;
     position: relative;
-    transition: left 3s;
 }
 
 .phone_blue {
