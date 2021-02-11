@@ -1,0 +1,60 @@
+.meny_mobile_hide {
+    opacity: 0;
+}
+.meny_mobile_add {
+    opacity: 1;
+}
+.mobile_icon:hover {
+    cursor: pointer;
+}
+.meny_mobile_wrap {
+    background: #2D303A;
+    z-index: 99;
+    position: fixed;
+    min-height: 100%;
+    width: 70%;
+    box-shadow: 0px -40px 20px rgba(0,0,0,0.4);
+}
+.meny_mobile_header {
+    padding: 40px 0 0 40px;
+    display: flex;
+}
+.mobile_logo {
+    align-self: center;
+    margin-left: 20%;
+}
+.meny_mobile_nav{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.mobile_nav_col{
+    list-style-type: none;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mobile_nav_col a{
+    text-decoration: none;
+    color: #fff; 
+}
+.mobile_nav_col a:hover {
+    color: #F06C64;
+    transition: all .3s;
+}
+.mobile_nav{
+    position: absolute;
+    height: 35%;
+}

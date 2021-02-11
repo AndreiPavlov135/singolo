@@ -5,56 +5,211 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singolo</title>
-    <link rel="stylesheet" href="my_css.css">
+    <link rel="stylesheet" href="mainstyles.css">
+    <link rel="stylesheet" href="mobilestyles.css">
+    <link rel="stylesheet" href="mediastyles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="meny_mobile_hide">
+        <div class="meny_mobile_wrap">
+            <div class="meny_mobile_header">
+                <div class="mobile_icon">
+                    <img src="img/img-mobile/Burger-menu-icon.png" alt="burger_menu" class="burger_icon_remove">
+                </div>
+                <div class="mobile_logo">
+                    <img src="img/img-mobile/logo.png" alt="">
+                </div>
+            </div>
+            <div class="meny_mobile_nav">
+                <nav class="mobile_nav">
+                    <ul class="mobile_nav_col">
+                        <li class="mobile_link"><a href="#home">home</a></li>
+                        <li class="mobile_link"><a href="#services">services</a></li>
+                        <li class="mobile_link"><a href="#portfolio">portfolio</a></li>
+                        <li class="mobile_link"><a href="#footer">about</a></li>
+                        <li class="mobile_link"><a href="#footer">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div class="wrapper_content">
     <header>
         <div class="header_wrapp">
+            <div class="burger_menu">
+                <img src="img/Burger-menu-icon.png" alt="burger_menu" class="burger_icon_add">
+            </div>
             <div class="wrapp_logo_container">
                 <h1 class="h1_wrapp">singolo<span class="h1_wrapp_logo">*</span></h1>
             </div>
             <nav class="header_nav">
-                <ul class="header_nav_row">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contact</a></li>
+                <ul class="header_nav_row" id="header_menu">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#footer">about</a></li>
+                    <li><a href="#footer">contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div class="slider">
+    <div class="slider" id="home">
         <div class="slider_wrapp">
-            <div class="slider_controls">
-                <div class="slider_controls_arrow_left">
-                    <figure class="img_slider_controls_arrow_left">
-                        <img src="./img/slider-controls/arrow-left.png" alt="slider_controls_arrow_left">
-                    </figure>
+                <div class="slider_controls">
+                    <div class="slider_controls_arrow_left">
+                        <figure class="img_slider_controls_arrow_left">
+                            <img src="img/slider-controls/arrow-left.png" alt="slider_controls_arrow_left">
+                        </figure>
+                    </div>
+                    <div class="slider_controls_arrow_right">
+                        <figure class="img_slider_controls_arrow_right">
+                            <img src="img/slider-controls/arrow-right.png" alt="slider_controls_arrow_right">
+                        </figure>
+                    </div>
                 </div>
-                <div class="slider_controls_arrow_right">
-                    <figure class="img_slider_controls_arrow_right">
-                        <img src="./img/slider-controls/arrow-right.png" alt="slider_controls_arrow_right">
-                    </figure>
-                </div>
-            </div>
             <div class="slider_content">
                 <div class="slider_content_phone_vertical">
                     <figure>
-                        <img src="./img/phone-vertical.png" alt="slider_content_phone_vertical">
+                        <img class="phone_vertical" src="img/phone-vertical.png" alt="slider_content_phone_vertical">
                     </figure>
                 </div>
                 <div class="slider_content_phone_horizontal">
                     <figure>
-                        <img src="./img/phone-horizontal.png" alt="slider_content_phone_horizontal">
+                        <img class="phone_horizontal" src="img/phone-horizontal.png" alt="slider_content_phone_horizontal">
                     </figure>
                 </div>
             </div>
         </div>
     </div>
+    <div class="slider_content_blue">
+        <figure class="figure_phone_blue">
+            <img class="phone_blue" src="img/Slider.png" alt="">
+        </figure>
+    </div>
+    <div class="services" id="services">
+        <div class="services_wrap">
+            <div class="our-services_content">
+                <h2>Our Services</h2>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus,
+                    nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+                    tortor mauris condimentum nibh.</p>
+                <div class="content">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img src="img/services-icons/services-item-1.png" alt="icon-1">
+                        </div>
+                        <div class="card_content">
+                            <h4 class="content_name">Custom Design</h4>
+                            <p class="content_description">Curabitur vestibulum eget mauris quis laoreet. Phasellus
+                                in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_icon">
+                            <img src="img/services-icons/services-item-2.png" alt="icon-2">
+                        </div>
+                        <div class="card_content">
+                            <h4 class="content_name">Inovative Ideas
+                            </h4>
+                            <p class="content_description">Quisque luctus, quam eget molestie commodo, lacus purus
+                                cursus purus, nec rutrum tellus dolor id lorem.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_icon">
+                            <img src="img/services-icons/services-item-3.png" alt="icon-3">
+                        </div>
+                        <div class="card_content">
+                            <h4 class="content_name">Love Is The Answer</h4>
+                            <p class="content_description">Nulla sed nunc et tortor luctus faucibus. Morbi at
+                                aliquet turpis, et consequat felis. Quisque condimentum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_icon">
+                            <img src="img/services-icons/services-item-4.png" alt="icon-4">
+                        </div>
+                        <div class="card_content">
+                            <h4 class="content_name">Responsive Layout
+                            </h4>
+                            <p class="content_description">Sed porttitor placerat rhoncus. In at nunc tellus.
+                                Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_icon">
+                            <img src="img/services-icons/services-item-5.png" alt="icon-5">
+                        </div>
+                        <div class="card_content">
+                            <h4 class="content_name">24 / 7 Support</h4>
+                            <p class="content_description">Vivamus vel quam lacinia, tincidunt dui non, vehicula
+                                nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_icon">
+                            <img src="img/services-icons/services-item-6.png" alt="icon-6">
+                        </div>
+                        <div class="card_content">
+                            <h4 class="content_name">Feel Like A Star</h4>
+                            <p class="content_description">Quisque hendrerit purus dapibus, ornare nibh vitae,
+                                viverra nibh. Fusce vitae aliquam tellus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="portfolio_wrap">
+            <div class="portfolio_section_header">
+                <h3 class="portfolio_header_name">Portfolio
+                </h3>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            </div>
+            <div class="portfolio_nav">
+                <ul class="portfolio_header_nav">
+                    <li><a href="">All</a> </li>
+                    <li><a href="">Web Design</a></li>
+                    <li><a href="">Graphic Design</a> </li>
+                    <li><a href="">Artwork</a></li>
+                </ul>
+            </div>
+            <div class="portfolio_image">
+                <img src="img/portfolio-image/portfolio-1.png" alt="">
+                <img src="img/portfolio-image/portfolio-2.png" alt="">
+                <img src="img/portfolio-image/portfolio-3.png" alt="">
+                <img src="img/portfolio-image/portfolio-4.png" alt="">
+                <img src="img/portfolio-image/portfolio-5.png" alt="">
+                <img src="img/portfolio-image/portfolio-6.png" alt="">
+                <img src="img/portfolio-image/portfolio-7.png" alt="">
+                <img src="img/portfolio-image/portfolio-8.png" alt="">
+                <img src="img/portfolio-image/portfolio-9.png" alt="">
+                <img src="img/portfolio-image/portfolio-10.png" alt="">
+                <img src="img/portfolio-image/portfolio-11.png" alt="">
+                <img src="img/portfolio-image/portfolio-12.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="footer_wrap">
+            <div class="footer_left_side">
+                <p>© Copyright 2013 </p>
+            </div>
+            <div class="footer_right_side">
+                <img src="img/footer/ico-facebook.png" alt="facebook">
+                <img src="img/footer/ico-google-plus.png" alt="googel">
+                <img src="img/footer/ico-twitter.png" alt="twitter">
+                <img src="img/footer/ico-linkedin.png" alt="linkedin">
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
